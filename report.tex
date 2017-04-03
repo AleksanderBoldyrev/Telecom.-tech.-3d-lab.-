@@ -95,7 +95,23 @@
 		\label{pic:filter_signal_spectrum} % название для ссылок внутри кода
 	\end{center}
 \end{figure}
-На рисунке видна одна гармоника, т.е. фильтр верно отсек гармонику шума, внесенного нами в сигнал.
+На рисунке видна одна гармоника, т.е. фильтр отсек гармонику шума, внесенного нами в сигнал.
+Ниже представлена модель Simulink КИХ-фильтра и сигнал до и после фильрации.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.7]{Model}
+		\caption{Модель Simulink} 
+		\label{pic:Model} % название для ссылок внутри кода
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.7]{Model_filt}
+		\caption{Сигнал до (желтый) и после (синий) КИХ-фильтра} 
+		\label{pic:Model_filt} % название для ссылок внутри кода
+	\end{center}
+\end{figure}
+Сигнал формируется с задержкой, в отличие от случая фильтра Баттерворта (с БИХ)
 
 \section{Выводы}
 
